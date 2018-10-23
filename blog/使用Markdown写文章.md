@@ -51,7 +51,7 @@ Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，
 ### 4.链接
 语法：前面一个英文中括号写链接名称，后面一个英文括号写链接地址。  
 例如：  
-[百度](https://www.baidu.com)
+[百度](https://www.baidu.com)  
 代码如下  
 `[百度](https://www.baidu.com)`
 
