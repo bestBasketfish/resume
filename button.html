@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+* {
+  margin:0 auto;
+}
+
+.shape {
+    margin-top: 20px;
+  text-align:center;
+}
+
+.same {
+
+  display:inline-block;
+  color:black;
+  text-decoration:none;
+
+  border-radius:4px;
+  padding:10px 10px;
+}
+
+.red{
+  background:red;
+  
+}
+
+.green{
+  background:green;
+  color:white;
+}
+.blue {
+  background:blue;
+  color:white;
+}
+.yellow {
+  background:yellow;
+}
+.pink {
+  background:pink;
+}
+
+.shape>a:hover {
+  -moz-box-shadow:0px 5px 10px #aaa; 
+  -webkit-box-shadow:0px 5px 10px #aaa; 
+  box-shadow:0px 5px 10px #aaa;
+}
+
+</style>
+<body>  
+  <div class="shape ">
+    <a class=" same red" href="#"> red</a>
+    <a class=" same green " href="#">green </a>
+    <a class="same blue" href="#">blue </a>
+    <a class="same yellow" href="#"> yellow</a>
+    <a class="same pink" href="#"> pink</a>
+  </div>
+</body>
+</html>
