@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sprite</title>
+</head>
+<style>
+*{
+margin:0;
+padding:0;
+font:16px/1.5 SimSun, STKaiti, "Microsoft YaHei", SimHei, Helvetica, Arial;
+}
+
+.user{
+background-color:#ccc;
+margin-top:30px;
+margin-left:30px;
+width: 300px;
+height: 330px;
+}
+.user ul{
+    margin: 0 auto;
+    width: 270px;
+    
+}
+.user li {
+    border-bottom:1px solid #999;
+    list-style: none;
+    padding-bottom:8px; 
+    margin-top:5px; 
+
+}
+.user ul::before{
+    content: "";
+    display: inline-block;
+    margin-top: 20px;
+}
+.same{
+margin-top:10px; 
+ display: inline-block;
+   padding: 0px 4px;
+   vertical-align: bottom;
+   border-right: 1px solid #999;
+}
+.same2{
+    display: inline-block;
+   padding: 0px 8px;
+   vertical-align: bottom;
+}
+.sprite{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    vertical-align: bottom;  
+}
+.name{
+     /* background-image: url(img/Spring.png); */
+     background:transparent url(img/Spring.png);
+    background-repeat: no-repeat;
+    background-position: 0px -2px; 
+
+}
+
+.ex {
+     /* background-image: url(img/Spring.png); */
+     background:transparent url(img/Spring.png);
+    background-repeat: no-repeat;
+    background-position: -20px -2px; 
+}
+
+.ed {
+     /* background-image: url(img/Spring.png); */
+     background:transparent url(img/Spring.png);
+    background-repeat: no-repeat;
+    background-position: -40px -3px; 
+}
+
+.ip {
+     /* background-image: url(img/Spring.png); */
+     background:transparent url(img/Spring.png);
+    background-repeat: no-repeat;
+    background-position: 0px -21px; 
+}
+
+.em {
+     /* background-image: url(img/Spring.png); */
+     background:transparent url(img/Spring.png);
+    background-repeat: no-repeat;
+    background-position: -20px -22px; 
+}
+</style>
+
+<body>
+<div class="user">
+<ul>
+    <li><span class="sprite name"></span><span class="same">姓名</span><span class="same2">哈哈哈哈</span></li>
+    <li><span class="sprite ex"></span><span class="same">经验</span><span class="same2">50年以上</span></li>
+    <li><span class="sprite ed"></span><span class="same">教育</span><span class="same2">教育过很多人</span></li>
+    <li><span class="sprite ip"></span><span class="same">电话</span><span class="same2">1508888888</span></li>
+    <li><span class="sprite em"></span><span class="same">邮件</span><span class="same2">1314520@163.com</span></li>
+</ul>
+</div>
+
+
+</body>
+</html>
